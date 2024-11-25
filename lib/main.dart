@@ -91,7 +91,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                 'Your Alarm Companion',
                 style: TextStyle(
                   fontSize: 16,
-                  color: Color(0xFFD78B15), // Matching your button color
+                  color: Color(0xFFD78B15),
                 ),
               ),
             ],
