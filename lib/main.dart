@@ -88,7 +88,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
               ),
               const SizedBox(height: 10),
               Text(
-                'Your Smart Alarm Companion',
+                'Your Alarm Companion',
                 style: TextStyle(
                   fontSize: 16,
                   color: Color(0xFFD78B15), // Matching your button color
