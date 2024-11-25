@@ -75,7 +75,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
               Icon(
                 Icons.alarm,
                 size: 100,
-                color: Color(0xFFD78B15), // Matching your button color
+                color: Color(0xFFD78B15),
               ),
               const SizedBox(height: 20),
               const Text(
