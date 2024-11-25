@@ -102,7 +102,6 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
   }
 }
 
-// Your existing MainPage code
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
 
