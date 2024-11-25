@@ -16,12 +16,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
       ),
-      home: const SplashScreen(), // Changed to start with splash screen
+      home: const SplashScreen(),
     );
   }
 }
 
-// Splash Screen Implementation
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
 
@@ -49,7 +48,6 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
 
     _animationController.forward();
 
-    // Navigate to MainPage after 5 seconds
     Timer(const Duration(seconds: 5), () {
       Navigator.pushReplacement(
         context,
